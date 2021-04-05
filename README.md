@@ -2,7 +2,7 @@
 
 Launch Web browser: http://www.crunchyroll.com
 
-Automatically set video player to fullscreen during transition onto the next episode.\
+Automatically set video player to fullscreen during transition onto the next episode (Autoplay enable).\
 Desktop resolutions: 1080p\
 OS: Windows
 
