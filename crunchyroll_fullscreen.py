@@ -45,7 +45,7 @@ def check_fullscreen():
         check_x3, check_y3, color3 = CHECK_OFF_SCREEN3
         check_x4, check_y4, color4 = CHECK_OFF_SCREEN4
 
-        # Two position check - decrease chance of falsely detecting video player no longer in fullscreen.
+        # Four position check - decrease chance of falsely detecting video player no longer in fullscreen.
         check_one = pyautogui.pixelMatchesColor(check_x1, check_y1, color1, tolerance=10)
         check_two = pyautogui.pixelMatchesColor(check_x2, check_y2, color2, tolerance=10)
         check_three = pyautogui.pixelMatchesColor(check_x3, check_y3, color3, tolerance=10)
